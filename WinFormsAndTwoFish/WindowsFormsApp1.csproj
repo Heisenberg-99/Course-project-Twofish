@@ -78,6 +78,7 @@
     <Compile Include="TextMode.Designer.cs">
       <DependentUpon>TextMode.cs</DependentUpon>
     </Compile>
+    <Compile Include="Twofish.cs" />
     <EmbeddedResource Include="AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>

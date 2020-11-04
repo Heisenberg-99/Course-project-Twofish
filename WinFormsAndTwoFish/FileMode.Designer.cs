@@ -72,6 +72,7 @@
             this.LoadFile.Name = "LoadFile";
             this.LoadFile.Size = new System.Drawing.Size(476, 20);
             this.LoadFile.TabIndex = 2;
+            this.LoadFile.TextChanged += new System.EventHandler(this.LoadFile_TextChanged);
             // 
             // SaveFile
             // 
@@ -108,6 +109,7 @@
             this.EncryptButton.TabIndex = 6;
             this.EncryptButton.Text = "Encrypt";
             this.EncryptButton.UseVisualStyleBackColor = true;
+            this.EncryptButton.Click += new System.EventHandler(this.EncryptButton_Click);
             // 
             // DecryptButton
             // 
@@ -117,6 +119,7 @@
             this.DecryptButton.TabIndex = 7;
             this.DecryptButton.Text = "Decrypt";
             this.DecryptButton.UseVisualStyleBackColor = true;
+            this.DecryptButton.Click += new System.EventHandler(this.DecryptButton_Click);
             // 
             // textBoxKeyPhrase
             // 
@@ -164,7 +167,6 @@
             this.checkBoxDelete.TabIndex = 13;
             this.checkBoxDelete.Text = "Delete Encrypt/Decrypt file";
             this.checkBoxDelete.UseVisualStyleBackColor = true;
-            this.checkBoxDelete.CheckedChanged += new System.EventHandler(this.checkBoxDelete_CheckedChanged);
             // 
             // buttonConfirm
             // 
