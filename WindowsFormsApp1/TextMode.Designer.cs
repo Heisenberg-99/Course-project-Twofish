@@ -140,6 +140,7 @@
             // 
             // textBoxText
             // 
+            this.textBoxText.HideSelection = false;
             this.textBoxText.Location = new System.Drawing.Point(73, 92);
             this.textBoxText.Multiline = true;
             this.textBoxText.Name = "textBoxText";
@@ -154,7 +155,6 @@
             this.checkBoxDelete.TabIndex = 12;
             this.checkBoxDelete.Text = "Delete Encrypt/Decrypt file";
             this.checkBoxDelete.UseVisualStyleBackColor = true;
-            this.checkBoxDelete.CheckedChanged += new System.EventHandler(this.checkBoxDelete_CheckedChanged);
             // 
             // label4
             // 
